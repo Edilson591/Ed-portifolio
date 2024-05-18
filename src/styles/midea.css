@@ -1,0 +1,160 @@
+@media screen and (min-width: 741px) and (max-width: 1024px) {
+    .slides-content {
+        grid-template-columns: repeat(2, 48%);
+    }   
+    section.section-home .sections-flex{
+        justify-content: space-between;
+        align-items: center;
+        text-align: center;
+        gap: 1rem;
+    } 
+    
+    .slide-box {
+        width: 100%;
+    }
+
+
+    .slide-box .button-manual {
+        display: none;
+    }
+    
+    .slide-box .nav-manual,
+    .slide-box .nav-auto{
+        display: none;
+    }
+    .section-home h1 {
+        font-size: 2rem;
+    }
+    .section-home p {
+        font-size: 1.5rem;
+    }
+    .section-home .img-content-top {
+        max-width: 300px;
+    }
+    .slide-box .description-Projects .contro-container-description {
+        bottom: auto;
+        opacity: 1;
+        width: 100%;
+        border-top: 2px solid #ca4c03;
+    
+    }
+    .slide-box .slides-links ul li a{ 
+        font-size: 1.2rem;
+    } 
+  
+
+
+}
+
+@media only screen and (max-width: 740px) {
+    #menu {
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: center;
+        position: fixed;
+        right: -70vw;
+        width: 50%;
+        height: 100vh;
+        top: 4.1rem;
+        z-index: 100;
+        visibility: visible;
+        overflow-y: auto;
+        backdrop-filter: blur(2px);
+        transition: right .5s ease;
+    }
+
+    #nav.active #menu {
+        right: 0;
+    }
+    #btn-mobile {
+        display: flex;
+        gap: .5rem;
+        border: none;
+        font-size: 1rem;
+        transform: scale(1.2);
+        background:  #ca4c03c7;
+        padding: 6px;
+        border-radius: 20%;
+        cursor: pointer;
+    }
+
+    #hamburguer {
+        width: 20px;
+        border-top: 3px solid;
+        color: #ffffff;
+    }
+
+    #hamburguer::after,
+    #hamburguer::before {
+        content: "";
+        display: block;
+        position: relative;
+        width: 20px;
+        height: 3px;
+        margin-top: 5px;
+        background: currentColor;
+        transition: all .5s ease-in-out;
+    } 
+
+    #nav.active #hamburguer {
+        border-top: none;
+    }
+
+    #nav.active #hamburguer::after {
+        transform: rotate(-135deg);
+        top: -8px;
+    }
+    #nav.active #hamburguer::before {
+        transform: rotate(135deg);
+    }
+    #nav li a {
+        color: var(--color-default);
+    }
+    #nav li a::after {
+        background-color: var(--main-font-color);
+    }
+
+    .sections-flex {
+        flex-direction:  column-reverse;
+    }
+    .slides-content {
+        grid-template-columns: repeat(1, 100%);
+    }  
+    .slide-box .description-Projects .contro-container-description {
+        bottom: auto;
+        opacity: 1;
+        width: 100%;
+        border-top: 2px solid #ca4c03;
+    }
+
+    .name,
+    .first-word {
+        font-size: 1.5rem;
+        -webkit-text-stroke: 0.1rem #ca4c03c7
+    }
+    .section-home h1 {
+        font-size: 2rem;
+    }
+    .section-home p {
+        font-size: 1.2rem;
+    }
+    .section-home .img-content-top {
+        max-width: 300px;
+    }
+
+    .container-bg {
+        backdrop-filter:none;
+    }
+    
+    .section-home .text-content-top .actions {
+        gap: 1rem;
+    }
+    .slide-box .slides-links ul li a{ 
+        font-size: 1.2rem;
+    } 
+  
+    
+ 
+   
+}
