@@ -21,4 +21,23 @@ $(function() {
         nav.removeClass("active");
         button.attr("aria-expanded", "false").attr("aria-label", "Abrir Menu");
     });
+     //função para animação ao secrola a pagina
+     const sections = $("section");
+
+     const sizeWindows = $(window).height() * 0.6;
+ 
+     function animateScroll(){
+         sections.each((index, item) => {
+             const itemTop = $(item).offset().top - $(window).scrollTop();
+             const getSection = itemTop - sizeWindows < 0;
+             if(getSection) {
+                 $(item).addClass('active');
+             }else {
+                 $(item).removeClass('active');
+             }
+         });
+     }
+     $(window).scroll(function() {
+        animateScroll();
+    });
 });

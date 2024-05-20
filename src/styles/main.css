@@ -233,6 +233,7 @@
     width: 100%;
     justify-content: space-around;
     padding: 40px 0;
+    gap: 2rem;
 }
 .section-soft-skills .container .sections-flex .soft-skills,
 .section-soft-skills .container .sections-flex .soft-skills-progress {
@@ -283,6 +284,42 @@
     font-weight: 600;
     color: white;
 }
+.section-about,
+.section-soft-skills,
+.slider-projects{
+    opacity: 0;
+    transition: 0.5s;
+    transform: translatey(-10rem);
+}
+
+.active {
+    opacity: 1;
+    transform: translatey(0);
+}
+/*  fotter */
+
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 40px 0;
+    text-align: center;
+  }
+  footer .sections-flex {
+    gap: 1rem;
+    align-items: center;
+  }
+  footer .container .footer-autor h3 { 
+    margin-bottom: 1rem;
+
+  }
+
+
+  footer .container .contato a{
+    font-size: 2rem;
+    color: #fff;
+  }
+
+
 
 
 

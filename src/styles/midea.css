@@ -12,6 +12,9 @@
     .slide-box {
         width: 100%;
     }
+    #nav li a {
+        font-size: var(--font-size-third);
+    }
 
 
     .slide-box .button-manual {
@@ -31,7 +34,7 @@
     .section-home .img-content-top {
         max-width: 300px;
     }
-    .slide-box .description-Projects .contro-container-description {
+    .slide-box .description-Projects .contro-container-description { 
         bottom: auto;
         opacity: 1;
         width: 100%;
@@ -41,6 +44,13 @@
     .slide-box .slides-links ul li a{ 
         font-size: 1.2rem;
     } 
+    
+    footer .sections-flex {
+        flex-direction: column;
+    }
+    footer .container .sections-flex {
+        flex-direction: row;
+    }
   
 
 
@@ -54,7 +64,6 @@
         align-items: center;
         position: fixed;
         right: -70vw;
-        width: 50%;
         height: 100vh;
         top: 4.1rem;
         z-index: 100;
@@ -153,6 +162,12 @@
     .slide-box .slides-links ul li a{ 
         font-size: 1.2rem;
     } 
+    footer .sections-flex {
+        flex-direction: column;
+    }
+    footer .container .sections-flex {
+        flex-direction: row;
+    }
   
     
  
