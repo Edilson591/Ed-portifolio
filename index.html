@@ -36,9 +36,10 @@
                     <span id="hamburguer"></span>
                 </button>
                 <ul id="menu" role="menu">
-                    <li><a href="#home">Inicio</a></li>
-                    <li><a href="#about">Sobre</a></li>
-                    <li><a href="#projects">Projetos</a></li>
+                    <li><a href="#home" role="menuitem">Inicio</a></li>
+                    <li><a href="#about" role="menuitem">Sobre</a></li>
+                    <li><a href="#soft-skills" role="menuitem">Habilidades</a></li>
+                    <li><a href="#projects" role="menuitem">Projetos</a></li>
                 </ul>
             </nav>
 
@@ -59,7 +60,10 @@
                         </div>
                     </div>
                     <div class="img-content-top">
-                        <img src="src/Imagens/Foto Edilson.jpeg" class="fotoUser" alt="Foto de perfil do portifolio">
+                        <picture>
+                            <img src="src/Imagens/profile-photo.webp" class="fotoUser"
+                                alt="Foto de perfil do portifolio">
+                        </picture>
                     </div>
                 </div>
 
@@ -74,7 +78,7 @@
 
                     <div class="description-paragrafo">
                         <p>
-                           Técnico em radiologia migrando para desenvolvimento front-end, aplicando habilidades
+                            Técnico em radiologia migrando para desenvolvimento front-end, aplicando habilidades
                             analíticas para criar interfaces web intuitivas e atraentes. Comprometido com aprendizado
                             contínuo e contribuição para equipes de desenvolvimento, buscando experiências digitais de
                             alta qualidade. Domínio de HTML, CSS e JavaScript, com experiência na construção de
@@ -88,220 +92,244 @@
         </section>
         <section class="section-soft-skills" id="soft-skills">
             <div class="container">
-                <div class="sections-flex">
-                    <div class="title-soft-skills">
-                        <h2>habilidades</h2>
-                    </div>
-
-                    <div class="soft-skills-learning">
-                        <p>
-                           Técnico em radiologia migrando para desenvolvimento front-end, aplicando habilidades
-                            analíticas para criar interfaces web intuitivas e atraentes. Comprometido com aprendizado
-                            contínuo e contribuição para equipes de desenvolvimento, buscando experiências digitais de
-                            alta qualidade. Domínio de HTML, CSS e JavaScript, com experiência na construção de
-                            experiências digitais envolventes. Explorando React, TypeScript, Vue.js, Bootstrap e
-                            Angular. Animado para colaborar em equipes de desenvolvimento front-end e impulsionar a
-                            inovação no desenvolvimento web.
-                        </p>
-                    </div>
-                    <div class="soft-skills-">
-                        <p>
-                           Técnico em radiologia migrando para desenvolvimento front-end, aplicando habilidades
-                            analíticas para criar interfaces web intuitivas e atraentes. Comprometido com aprendizado
-                            contínuo e contribuição para equipes de desenvolvimento, buscando experiências digitais de
-                            alta qualidade. Domínio de HTML, CSS e JavaScript, com experiência na construção de
-                            experiências digitais envolventes. Explorando React, TypeScript, Vue.js, Bootstrap e
-                            Angular. Animado para colaborar em equipes de desenvolvimento front-end e impulsionar a
-                            inovação no desenvolvimento web.
-                        </p>
-                    </div>
+                <div class="title-soft-skills">
+                    <h2>Habilidades</h2>
                 </div>
-            </div>
-        </section>
-        <section class="section-soft-skills">
-            <div class="container">
                 <div class="sections-flex">
-                   <div class="soft-skills">
-                    <div class="soft-skill">
-                        <img src="src/icons/html.svg" alt="Logo HTML">
-                        <label for="soft-skill">HTML</label>
+                    <div class="soft-skills">
+                        <div class="subtitle-skills">
+                            <h3>Adiquiridas</h3>
+                        </div>
+                        <div class="soft-skill">
+                            <div class="skills-box-label">
+                                <img src="src/icons/html.svg" alt="Logo HTML">
+                                <label for="soft-skill">HTML</label>
+                            </div>
+                        </div>
+                        <div class="soft-skill">
+                            <div class="skills-box-label">
+                                <img src="src/icons/js.svg" alt="Logo JS">
+                                <label for="soft-skill">JS</label>
+                            </div>
+                        </div>
+                        <div class="soft-skill">
+                            <div class="skills-box-label">
+                                <img src="src/icons/css.svg" alt="Logo CSS">
+                                <label for="soft-skill">CSS</label>
+                            </div>
+                        </div>
                     </div>
-                    <img src="src/icons/css.svg" alt="Logo CSS">
-                    <img src="src/icons/js.svg" alt="Logo JS">
-                   </div>
-                   <div class="soft-skills-progress">\
+                    <div class="soft-skills-progress">
+                        <div class="subtitle-skills">
+                            <h3>Em desenvolvimento</h3>
+                        </div>
+                        <div class="soft-skill">
+                            <div class="skills-box-label">
+                                <img src="src/icons/html.svg" alt="Logo HTML">
+                                <label for="soft-skill">HTML</label>
+                            </div>
+                        </div>
+                        <div class="soft-skill">
+                            <div class="skills-box-label">
+                                <img src="src/icons/js.svg" alt="Logo JS">
+                                <label for="soft-skill">JS</label>
+                            </div>
+                        </div>
+                        <div class="soft-skill">
+                            <div class="skills-box-label">
+                                <img src="src/icons/css.svg" alt="Logo CSS">
+                                <label for="soft-skill">CSS</label>
+                            </div>
+                        </div>
 
-                   </div>
+                    </div>
                 </div>
             </div>
 
         </section>
         <section class="slider-projects" id="projects">
-            <div class="projects-title">
-                <h2>Projetos</h2>
-            </div>
-            <div class="slides-content">
-                <div class="slide-box">
-                    <img src="src/Imagens/img-projeto1.png" alt="">
-                    <div class="slides-links">
-                        <ul>
-                            <li>
-                                <a href="https://github.com/Edilson591/lista-de-tarefas-interativa" target="_blank">
-                                    <span class="fa-brands fa-square-github"></span>
-                                </a>
-                            </li>
-                            <li>
-                                <a href="https://lista-de-tarefas-tau-seven.vercel.app/" target="_blank">
-                                    <span class="fa-solid fa-hand-pointer"></span>
-                                </a>
-                            </li>
-                        </ul>
-                    </div>
-                    <div class="details">
-                        <p>Lista de tarefas interativas</p>
-                        <div class="usedLanguage">
-                            <img src="src/icons/html.svg" alt="Logo HTML">
-                            <img src="src/icons/css.svg" alt="Logo CSS">
-                            <img src="src/icons/js.svg" alt="Logo JS">
-                        </div>
-                    </div>
-                    <div class="description-Projects">
-                        <div class="contro-container-description">
-                            <a href="lista-de-tarefas-tau-seven.vercel.app" target="_blank">
-                                <h3>Lista de tarefas interativas</h3>
-                                <p>Desenvolvimento de uma Lista de Tarefas Interativa, inspirada na concepção de uma
-                                    lista
-                                    de afazeres equipada com uma gama variada de funcionalidades. Este projeto visa
-                                    criar
-                                    uma plataforma dinâmica e flexível, capaz de adaptar-se às necessidades individuais
-                                    dos
-                                    usuários, proporcionando uma experiência otimizada na gestão de suas atividades
-                                    diárias.
-                                </p>
-                            </a>
-                        </div>
-                    </div>
+            <div class="container">
+                <div class="projects-title">
+                    <h2>Projetos</h2>
                 </div>
-                <div class="slide-box">
-                    <img src="src/Imagens/img-projeto1.png" alt="">
-                    <div class="slides-links">
-                        <ul>
-                            <li>
-                                <a href="https://github.com/Edilson591/lista-de-tarefas-interativa" target="_blank">
-                                    <span class="fa-brands fa-square-github"></span>
+                <div class="slides-content">
+                    <div class="slide-box">
+                        <img src="src/Imagens/img-projeto1_1.webp" alt="Projetos realizados">
+                        <div class="slides-links">
+                            <ul>
+                                <li>
+                                    <a href="https://github.com/Edilson591/lista-de-tarefas-interativa"
+                                        aria-label="Click aqui e acesse o repositorio do projeto" target="_blank">
+                                        <span class="fa-brands fa-square-github"></span>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="https://lista-de-tarefas-tau-seven.vercel.app/"
+                                        aria-label="Click aqui para acessa o projeto na pratica" target="_blank">
+                                        <span class="fa-solid fa-hand-pointer"></span>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="details">
+                            <p>Lista de tarefas interativas</p>
+                            <div class="usedLanguage">
+                                <img src="src/icons/html.svg" alt="Logo HTML">
+                                <img src="src/icons/css.svg" alt="Logo CSS">
+                                <img src="src/icons/js.svg" alt="Logo JS">
+                            </div>
+                        </div>
+                        <div class="description-Projects">
+                            <div class="contro-container-description">
+                                <a href="lista-de-tarefas-tau-seven.vercel.app" target="_blank">
+                                    <h3>Lista de tarefas interativas</h3>
+                                    <p>Desenvolvimento de uma Lista de Tarefas Interativa, inspirada na concepção de uma
+                                        lista
+                                        de afazeres equipada com uma gama variada de funcionalidades. Este projeto visa
+                                        criar
+                                        uma plataforma dinâmica e flexível, capaz de adaptar-se às necessidades
+                                        individuais
+                                        dos
+                                        usuários, proporcionando uma experiência otimizada na gestão de suas atividades
+                                        diárias.
+                                    </p>
                                 </a>
-                            </li>
-                            <li>
-                                <a href="https://lista-de-tarefas-tau-seven.vercel.app/" target="_blank">
-                                    <span class="fa-solid fa-hand-pointer"></span>
-                                </a>
-                            </li>
-                        </ul>
-                    </div>
-                    <div class="details">
-                        <p>Lista de tarefas interativas</p>
-                        <div class="usedLanguage">
-                            <img src="src/icons/html.svg" alt="Logo HTML">
-                            <img src="src/icons/css.svg" alt="Logo CSS">
-                            <img src="src/icons/js.svg" alt="Logo JS">
+                            </div>
                         </div>
                     </div>
-                    <div class="description-Projects">
-                        <div class="contro-container-description">
-                            <a href="lista-de-tarefas-tau-seven.vercel.app" target="_blank">
-                                <h3>Lista de tarefas interativas</h3>
-                                <p>Desenvolvimento de uma Lista de Tarefas Interativa, inspirada na concepção de uma
-                                    lista
-                                    de afazeres equipada com uma gama variada de funcionalidades. Este projeto visa
-                                    criar
-                                    uma plataforma dinâmica e flexível, capaz de adaptar-se às necessidades individuais
-                                    dos
-                                    usuários, proporcionando uma experiência otimizada na gestão de suas atividades
-                                    diárias.
-                                </p>
-                            </a>
+                    <div class="slide-box">
+                        <img src="src/Imagens/img-projeto1_1.webp" alt="Projetos realizados">
+                        <div class="slides-links">
+                            <ul>
+                                <li>
+                                    <a href="https://github.com/Edilson591/lista-de-tarefas-interativa"
+                                        aria-label="Click aqui e acesse o repositorio do projeto" role="menuitem"
+                                        target="_blank">
+                                        <span class="fa-brands fa-square-github"></span>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="https://lista-de-tarefas-tau-seven.vercel.app/"
+                                        aria-label="Click aqui para acessa o projeto na pratica" target="_blank">
+                                        <span class="fa-solid fa-hand-pointer"></span>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="details">
+                            <p>Lista de tarefas interativas</p>
+                            <div class="usedLanguage">
+                                <img src="src/icons/html.svg" alt="Logo HTML">
+                                <img src="src/icons/css.svg" alt="Logo CSS">
+                                <img src="src/icons/js.svg" alt="Logo JS">
+                            </div>
+                        </div>
+                        <div class="description-Projects">
+                            <div class="contro-container-description">
+                                <a href="lista-de-tarefas-tau-seven.vercel.app" target="_blank">
+                                    <h3>Lista de tarefas interativas</h3>
+                                    <p>Desenvolvimento de uma Lista de Tarefas Interativa, inspirada na concepção de uma
+                                        lista
+                                        de afazeres equipada com uma gama variada de funcionalidades. Este projeto visa
+                                        criar
+                                        uma plataforma dinâmica e flexível, capaz de adaptar-se às necessidades
+                                        individuais
+                                        dos
+                                        usuários, proporcionando uma experiência otimizada na gestão de suas atividades
+                                        diárias.
+                                    </p>
+                                </a>
+                            </div>
                         </div>
                     </div>
-                </div>
-                <div class="slide-box">
-                    <img src="src/Imagens/img-projeto1.png" alt="">
-                    <div class="slides-links">
-                        <ul>
-                            <li>
-                                <a href="https://github.com/Edilson591/lista-de-tarefas-interativa" target="_blank">
-                                    <span class="fa-brands fa-square-github"></span>
+                    <div class="slide-box">
+                        <img src="src/Imagens/img-projeto1_1.webp" alt="Projetos realizados">
+                        <div class="slides-links">
+                            <ul>
+                                <li>
+                                    <a href="https://github.com/Edilson591/lista-de-tarefas-interativa"
+                                        aria-label="Click aqui e acesse o repositorio do projeto" role="menuitem"
+                                        target="_blank">
+                                        <span class="fa-brands fa-square-github"></span>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="https://lista-de-tarefas-tau-seven.vercel.app/"
+                                        aria-label="Click aqui para acessa o projeto na pratica" target="_blank">
+                                        <span class="fa-solid fa-hand-pointer"></span>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="details">
+                            <p>Lista de tarefas interativas</p>
+                            <div class="usedLanguage">
+                                <img src="src/icons/html.svg" alt="Logo HTML">
+                                <img src="src/icons/css.svg" alt="Logo CSS">
+                                <img src="src/icons/js.svg" alt="Logo JS">
+                            </div>
+                        </div>
+                        <div class="description-Projects">
+                            <div class="contro-container-description">
+                                <a href="lista-de-tarefas-tau-seven.vercel.app" target="_blank">
+                                    <h3>Lista de tarefas interativas</h3>
+                                    <p>Desenvolvimento de uma Lista de Tarefas Interativa, inspirada na concepção de uma
+                                        lista
+                                        de afazeres equipada com uma gama variada de funcionalidades. Este projeto visa
+                                        criar
+                                        uma plataforma dinâmica e flexível, capaz de adaptar-se às necessidades
+                                        individuais
+                                        dos
+                                        usuários, proporcionando uma experiência otimizada na gestão de suas atividades
+                                        diárias.
+                                    </p>
                                 </a>
-                            </li>
-                            <li>
-                                <a href="https://lista-de-tarefas-tau-seven.vercel.app/" target="_blank">
-                                    <span class="fa-solid fa-hand-pointer"></span>
-                                </a>
-                            </li>
-                        </ul>
-                    </div>
-                    <div class="details">
-                        <p>Lista de tarefas interativas</p>
-                        <div class="usedLanguage">
-                            <img src="src/icons/html.svg" alt="Logo HTML">
-                            <img src="src/icons/css.svg" alt="Logo CSS">
-                            <img src="src/icons/js.svg" alt="Logo JS">
+                            </div>
                         </div>
                     </div>
-                    <div class="description-Projects">
-                        <div class="contro-container-description">
-                            <a href="lista-de-tarefas-tau-seven.vercel.app" target="_blank">
-                                <h3>Lista de tarefas interativas</h3>
-                                <p>Desenvolvimento de uma Lista de Tarefas Interativa, inspirada na concepção de uma
-                                    lista
-                                    de afazeres equipada com uma gama variada de funcionalidades. Este projeto visa
-                                    criar
-                                    uma plataforma dinâmica e flexível, capaz de adaptar-se às necessidades individuais
-                                    dos
-                                    usuários, proporcionando uma experiência otimizada na gestão de suas atividades
-                                    diárias.
-                                </p>
-                            </a>
+                    <div class="slide-box">
+                        <img src="src/Imagens/img-projeto1_1.webp" alt="Projetos realizados">
+                        <div class="slides-links">
+                            <ul>
+                                <li>
+                                    <a href="https://github.com/Edilson591/lista-de-tarefas-interativa"
+                                        aria-label="Click aqui e acesse o repositorio do projeto" role="menuitem"
+                                        target="_blank">
+                                        <span class="fa-brands fa-square-github"></span>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="https://lista-de-tarefas-tau-seven.vercel.app/"
+                                        aria-label="Click aqui para acessa o projeto na pratica" target="_blank">
+                                        <span class="fa-solid fa-hand-pointer"></span>
+                                    </a>
+                                </li>
+                            </ul>
                         </div>
-                    </div>
-                </div>
-                <div class="slide-box">
-                    <img src="src/Imagens/img-projeto1.png" alt="">
-                    <div class="slides-links">
-                        <ul>
-                            <li>
-                                <a href="https://github.com/Edilson591/lista-de-tarefas-interativa" target="_blank">
-                                    <span class="fa-brands fa-square-github"></span>
-                                </a>
-                            </li>
-                            <li>
-                                <a href="https://lista-de-tarefas-tau-seven.vercel.app/" target="_blank">
-                                    <span class="fa-solid fa-hand-pointer"></span>
-                                </a>
-                            </li>
-                        </ul>
-                    </div>
-                    <div class="details">
-                        <p>Lista de tarefas interativas</p>
-                        <div class="usedLanguage">
-                            <img src="src/icons/html.svg" alt="Logo HTML">
-                            <img src="src/icons/css.svg" alt="Logo CSS">
-                            <img src="src/icons/js.svg" alt="Logo JS">
+                        <div class="details">
+                            <p>Lista de tarefas interativas</p>
+                            <div class="usedLanguage">
+                                <img src="src/icons/html.svg" alt="Logo HTML">
+                                <img src="src/icons/css.svg" alt="Logo CSS">
+                                <img src="src/icons/js.svg" alt="Logo JS">
+                            </div>
                         </div>
-                    </div>
-                    <div class="description-Projects">
-                        <div class="contro-container-description">
-                            <a href="lista-de-tarefas-tau-seven.vercel.app" target="_blank">
-                                <h3>Lista de tarefas interativas</h3>
-                                <p>Desenvolvimento de uma Lista de Tarefas Interativa, inspirada na concepção de uma
-                                    lista
-                                    de afazeres equipada com uma gama variada de funcionalidades. Este projeto visa
-                                    criar
-                                    uma plataforma dinâmica e flexível, capaz de adaptar-se às necessidades individuais
-                                    dos
-                                    usuários, proporcionando uma experiência otimizada na gestão de suas atividades
-                                    diárias.
-                                </p>
-                            </a>
+                        <div class="description-Projects">
+                            <div class="contro-container-description">
+                                <a href="lista-de-tarefas-tau-seven.vercel.app" target="_blank">
+                                    <h3>Lista de tarefas interativas</h3>
+                                    <p>Desenvolvimento de uma Lista de Tarefas Interativa, inspirada na concepção de uma
+                                        lista
+                                        de afazeres equipada com uma gama variada de funcionalidades. Este projeto visa
+                                        criar
+                                        uma plataforma dinâmica e flexível, capaz de adaptar-se às necessidades
+                                        individuais
+                                        dos
+                                        usuários, proporcionando uma experiência otimizada na gestão de suas atividades
+                                        diárias.
+                                    </p>
+                                </a>
+                            </div>
                         </div>
                     </div>
                 </div>

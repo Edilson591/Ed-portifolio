@@ -7,6 +7,7 @@
     justify-content: space-between;
     align-items: center;
     margin: 0 auto;
+    max-width: 1250px;
     width: 80%;
 }
 
@@ -92,13 +93,14 @@
 /* Top site*/
 
  section.section-home {
+    background: linear-gradient(45deg, rgb(46, 45, 50) 0%, rgba(79, 75, 71, 1) 35%, rgb(91, 106, 109) 100%);
+    box-shadow: rgb(0, 0, 0) 0px 0px 0px 1px;
     padding: 100px 0;
  }
 
  section.section-home .sections-flex {
-    justify-content: space-around;
+    justify-content: space-evenly;
     align-items: center;
-    gap: 3rem;
  }
 .section-home .container {
     display: block;
@@ -187,10 +189,11 @@
 
 /*section home*/
 
-.section-about .container {
-    max-width: 1000px;
+.section-about { 
+    padding: 40px 0;
+    background: linear-gradient(45deg, rgb(46, 45, 50) 0%, rgba(79, 75, 71, 1) 35%, rgb(91, 106, 109) 100%);
+    box-shadow: rgb(0, 0, 0) 0px 0px 0px 1px;
 }
-
 .section-about .container .sections-flex {
     justify-content: center;
     align-items: center;
@@ -200,12 +203,93 @@
 .section-about .container .sections-flex .description-paragrafo p{ 
     color: var(--main-font-color);
 }
+.section-about .container .sections-flex .title-about { 
+    padding: 40px 0;
+}
 
 /*section SoftSkills*/
-
-.section-soft-skills .container .sections-flex {
-    flex-direction: column;
+.section-soft-skills { 
+    background: linear-gradient(45deg, rgb(46, 45, 50) 0%, rgba(79, 75, 71, 1) 35%, rgb(91, 106, 109) 100%);
+    box-shadow: rgb(0, 0, 0) 0px 0px 0px 1px;
+    padding: 40px 0;
 }
+.section-soft-skills .container {
+    justify-content: center;
+    flex-direction: column;
+    padding: 10px 0;
+}
+
+.section-soft-skills .container .title-soft-skills { 
+    padding: 40px 0;
+}
+.section-soft-skills .container .title-soft-skills h2 { 
+    text-align: center;
+    font-size: var(--font-size-primary);
+    font-weight: bold;
+    color: var(--main-font-color);
+    margin-bottom: var(--margin-separation);
+}
+.section-soft-skills .container .sections-flex {
+    width: 100%;
+    justify-content: space-around;
+    padding: 40px 0;
+}
+.section-soft-skills .container .sections-flex .soft-skills,
+.section-soft-skills .container .sections-flex .soft-skills-progress {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2rem;
+}
+.section-soft-skills .container .sections-flex .soft-skills .soft-skill .skills-box-label,
+.section-soft-skills .container .sections-flex .soft-skills-progress .soft-skill .skills-box-label{
+    width: 40px;
+    height: 40px;
+    position: relative;
+}
+.section-soft-skills .container .sections-flex .soft-skills .soft-skill .skills-box-label img,
+.section-soft-skills .container .sections-flex .soft-skills-progress .soft-skill .skills-box-label img{
+    position: absolute;
+    width: 80%;
+    height: 80%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    opacity: 1;
+}
+
+.section-soft-skills .container .sections-flex .soft-skills .soft-skill .skills-box-label label,
+.section-soft-skills .container .sections-flex .soft-skills-progress .soft-skill .skills-box-label label{ 
+    font-size: 0.8vw;
+    line-height: 1.2vw;
+    font-weight: 400;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    opacity: 0;
+    transition: 0.3s linear;
+    color: #FFF;
+}
+.section-soft-skills .container .sections-flex .soft-skills .soft-skill .skills-box-label:hover label,
+.section-soft-skills .container .sections-flex .soft-skills-progress .soft-skill .skills-box-label:hover label{
+    top: -5px;  
+    transition: 0.3s linear 0s;
+    opacity: 1;
+}
+.section-soft-skills .container .sections-flex .soft-skills .subtitle-skills h3,
+.section-soft-skills .container .sections-flex .soft-skills-progress .subtitle-skills h3 {
+    font-size: 2rem;
+    font-weight: 600;
+    color: white;
+}
+
+
+
+
+
+
+
 
 
 @keyframes animateBorder {

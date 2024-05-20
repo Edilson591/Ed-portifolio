@@ -1,11 +1,13 @@
-section.slider-projects {
-    margin: 0 auto;
-    width: 80%;
-    height: auto;
-    max-width: 1100024px;
-    padding: 0 !important;
-    position: relative;
+
+section.slider-projects { 
+    background: linear-gradient(45deg, rgb(46, 45, 50) 0%, rgba(79, 75, 71, 1) 35%, rgb(91, 106, 109) 100%);
+    box-shadow: rgb(0, 0, 0) 0px 0px 0px 1px;
 }
+section.slider-projects .container { 
+    flex-direction: column
+    ;
+}
+
 
 .slider-projects .projects-title { 
     padding: 40px 0;
@@ -37,7 +39,6 @@ section.slider-projects {
 .slide-box {
     height: auto;
     border: 2px solid #ca4c03;
-    border-radius: 5px;
     position: relative;
     display: flex;
     transition: 1s;
