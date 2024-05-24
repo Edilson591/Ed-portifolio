@@ -261,8 +261,6 @@
 
 .section-soft-skills .container .sections-flex .soft-skills .soft-skill .skills-box-label label,
 .section-soft-skills .container .sections-flex .soft-skills-progress .soft-skill .skills-box-label label{ 
-    font-size: 0.8vw;
-    line-height: 1.2vw;
     font-weight: 400;
     position: absolute;
     top: 50%;
@@ -274,15 +272,16 @@
 }
 .section-soft-skills .container .sections-flex .soft-skills .soft-skill .skills-box-label:hover label,
 .section-soft-skills .container .sections-flex .soft-skills-progress .soft-skill .skills-box-label:hover label{
-    top: -5px;  
+    top: -5px; 
     transition: 0.3s linear 0s;
     opacity: 1;
 }
 .section-soft-skills .container .sections-flex .soft-skills .subtitle-skills h3,
 .section-soft-skills .container .sections-flex .soft-skills-progress .subtitle-skills h3 {
     font-size: 2rem;
-    font-weight: 600;
-    color: white;
+    font-weight: 700;
+    color: var(--main-font-color);
+    
 }
 .section-about,
 .section-soft-skills,

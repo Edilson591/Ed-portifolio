@@ -65,11 +65,12 @@
         position: fixed;
         right: -70vw;
         height: 100vh;
-        top: 4.1rem;
+        top: 2.7rem;
+        width: 45vw;
         z-index: 100;
         visibility: visible;
         overflow-y: auto;
-        backdrop-filter: blur(2px);
+        backdrop-filter: blur(3px);
         transition: right .5s ease;
     }
 
@@ -169,7 +170,9 @@
         flex-direction: row;
     }
   
-    
+    .section-soft-skills .container .sections-flex {
+        flex-direction: column;
+    }
  
    
 }
