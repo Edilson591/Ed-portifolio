@@ -9,13 +9,18 @@
 :root {
     --main-font-color: #dbdbdb;
     --margin-separation: 1rem;
-    --font-size-primary:3rem;
+    --font-size-primary:2.5rem;
     --font-size-secudary:1.5rem;
     --font-size-third:1rem;
-    --color-default:#ca4c03;
+    --color-default:#e25d10;
     --main-background:linear-gradient(45deg, rgb(46, 45, 56) 0%, rgba(79, 78, 71, 1) 35%, rgb(93, 106, 109) 100%);
 }
 body {
     background: var(--main-background);
     background-attachment: fixed;
+}
+
+a {
+    text-decoration: none;
+
 }

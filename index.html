@@ -7,6 +7,7 @@
     <title>Edilson Luciano portifolio</title>
     <!-- Styles -->
 
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css">
     <link rel="stylesheet" href="src/styles/reset.css">
     <link rel="stylesheet" href="src/styles/main.css">
     <link rel="stylesheet" href="src/styles/slides.css">
@@ -21,6 +22,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap"
         rel="stylesheet">
+
 </head>
 
 <body>
@@ -35,7 +37,7 @@
                     aria-expanded="false">
                     <span id="hamburguer"></span>
                 </button>
-                <ul id="menu" role="menu">
+                <ul id="menu" class="mb-0" role="menu">
                     <li><a href="#home" role="menuitem">Inicio</a></li>
                     <li><a href="#about" role="menuitem">Sobre</a></li>
                     <li><a href="#soft-skills" role="menuitem">Habilidades</a></li>
@@ -46,285 +48,298 @@
         </div>
     </header>
     <main>
-        <section class="section-home active" id="home">
-            <div class="container">
-                <div class="sections-flex">
-                    <div class="text-content-top">
-                        <h1>Olá sou <br><span> Edilson Luciano</span></h1>
-                        <p>Desevolvedor front-end</p>
-                        <div class="actions">
-                            <a href="assets/cv/Edilson-cv.pdf" download target="_blank"
-                                rel="noopener noreferrer">Curriculo</a>
-                            <a href="mailto:edilson591@gmail.com" target="_blank">Entre em
-                                contato</a>
+        <div data-bs-spy="scroll" data-bs-target="#cabecalho" data-bs-smooth-scroll="true">
+            <section class="section-home active" id="home">
+                <div class="container">
+                    <div class="sections-flex">
+                        <div class="text-content-top">
+                            <h1>Eu sou <span>Edilson Luciano</span></h1>
+                            <h2>Transformando ideias em realidade digital</h2>
+                            <p>Engenheiro Front End apaixonado por criar experiências web excepcionais</p>
+                            <div class="actions">
+                                <a href="assets/cv/Edilson-cv.pdf" download target="_blank"
+                                    rel="noopener noreferrer">Curriculo</a>
+                                <a href="mailto:edilson591@gmail.com" target="_blank">Entre em
+                                    contato</a>
+                                <a href="https://www.linkedin.com/in/edilsonluciano" target="_blank"
+                                    rel="noopener noreferrer">Linkedin</a>
+                            </div>
                         </div>
-                    </div>
-                    <div class="img-content-top">
-                        <picture>
-                            <img src="src/Imagens/profile-photo.webp" class="fotoUser"
-                                alt="Foto de perfil do portifolio">
-                        </picture>
-                    </div>
-                </div>
-
-            </div>
-        </section>
-        <section class="section-about" id="about">
-            <div class="container">
-                <div class="sections-flex">
-                    <div class="title-about">
-                        <h2>Sobre Mim</h2>
+                        <div class="img-content-top">
+                                <img src="src/Imagens/profile-photo.webp" class="fotoUser"
+                                    alt="Foto de perfil do portifolio">
+                        </div>
                     </div>
 
-                    <div class="description-paragrafo">
-                        <p>
-                            Técnico em radiologia migrando para desenvolvimento front-end, aplicando habilidades
-                            analíticas para criar interfaces web intuitivas e atraentes. Comprometido com aprendizado
-                            contínuo e contribuição para equipes de desenvolvimento, buscando experiências digitais de
-                            alta qualidade. Domínio de HTML, CSS e JavaScript, com experiência na construção de
-                            experiências digitais envolventes. Explorando React, TypeScript, Vue.js, Bootstrap e
-                            Angular. Animado para colaborar em equipes de desenvolvimento front-end e impulsionar a
-                            inovação no desenvolvimento web.
-                        </p>
-                    </div>
                 </div>
-            </div>
-        </section>
-        <section class="section-soft-skills" id="soft-skills">
-            <div class="container">
-                <div class="title-soft-skills">
-                    <h2>Habilidades</h2>
-                </div>
-                <div class="sections-flex">
-                    <div class="soft-skills">
-                        <div class="subtitle-skills">
-                            <h3>Adiquiridas</h3>
+            </section>
+            <section class="section-about" id="about">
+                <div class="container">
+                    <div class="sections-flex">
+                        <div class="about-img">
+                            <img src="src/Imagens/animate-about.png" alt="foto animada edilson">
                         </div>
-                        <div class="soft-skill">
-                            <div class="skills-box-label">
-                                <img src="src/icons/html.svg" alt="Logo HTML">
-                                <label for="soft-skill">HTML</label>
+                        <div class="about-description">
+                            <div class="title-about">
+                                <h2>Sobre Mim</h2>
                             </div>
-                        </div>
-                        <div class="soft-skill">
-                            <div class="skills-box-label">
-                                <img src="src/icons/js.svg" alt="Logo JS">
-                                <label for="soft-skill">JS</label>
-                            </div>
-                        </div>
-                        <div class="soft-skill">
-                            <div class="skills-box-label">
-                                <img src="src/icons/css.svg" alt="Logo CSS">
-                                <label for="soft-skill">CSS</label>
-                            </div>
-                        </div>
-                        <div class="soft-skill">
-                            <div class="skills-box-label">
-                                <img src="src/icons/bootstrap.svg" alt="Logo Bootstrap">
-                                <label for="soft-skill">Bootstrap</label>
-                            </div>
-                        </div>
-                        <div class="soft-skill">
-                            <div class="skills-box-label">
-                                <img src="src/icons/jquery.svg" alt="Logo jQuery">
-                                <label for="soft-skill">jQuery</label>
-                            </div>
-                        </div>
-                        <div class="soft-skill">
-                            <div class="skills-box-label">
-                                <img src="src/icons/sass.svg" alt="Logo sass">
-                                <label for="soft-skill">Sass</label>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="soft-skills-progress">
-                        <div class="subtitle-skills">
-                            <h3>Em desenvolvimento</h3>
-                        </div>
-                        <div class="soft-skill">
-                            <div class="skills-box-label">
-                                <img src="src/icons/typescript.svg" alt="Logo typescript">
-                                <label for="soft-skill">TypeScript</label>
-                            </div>
-                        </div>
-                        <div class="soft-skill">
-                            <div class="skills-box-label">
-                                <img src="src/icons/react.svg" alt="Logo React">
-                                <label for="soft-skill">React</label>
+                            <div class="description-paragrafo">
+                                <p>
+                                    Técnico em radiologia migrando para desenvolvimento front-end, aplicando habilidades
+                                    analíticas para criar interfaces web intuitivas e atraentes. Comprometido com
+                                    aprendizado
+                                    contínuo e contribuição para equipes de desenvolvimento, buscando experiências digitais
+                                    de
+                                    alta qualidade. Domínio de HTML, CSS e JavaScript, com experiência na construção de
+                                    experiências digitais envolventes. Explorando React, TypeScript, Vue.js, Bootstrap e
+                                    Angular. Animado para colaborar em equipes de desenvolvimento front-end e impulsionar a
+                                    inovação no desenvolvimento web.
+                                </p>
                             </div>
                         </div>
                     </div>
                 </div>
-            </div>
-
-        </section>
-        <section class="slider-projects" id="projects">
-            <div class="container">
-                <div class="projects-title">
-                    <h2>Projetos</h2>
-                </div>
-                <div class="slides-content">
-                    <div class="slide-box">
-                        <img src="src/Imagens/img-projeto1_1.webp" alt="Projetos realizados">
-                        <div class="slides-links">
-                            <ul>
-                                <li>
-                                    <a href="https://github.com/Edilson591/lista-de-tarefas-interativa"
-                                        aria-label="Click aqui e acesse o repositorio do projeto" target="_blank">
-                                        <span class="fa-brands fa-square-github"></span>
-                                    </a>
-                                </li>
-                                <li>
-                                    <a href="https://lista-de-tarefas-tau-seven.vercel.app/"
-                                        aria-label="Click aqui para acessa o projeto na pratica" target="_blank">
-                                        <span class="fa-solid fa-hand-pointer"></span>
-                                    </a>
-                                </li>
-                            </ul>
-                        </div>
-                        <div class="details">
-                            <p>Lista de tarefas interativas</p>
-                            <div class="usedLanguage">
-                                <img src="src/icons/html.svg" alt="Logo HTML">
-                                <img src="src/icons/css.svg" alt="Logo CSS">
-                                <img src="src/icons/js.svg" alt="Logo JS">
-                            </div>
-                        </div>
-                        <div class="description-Projects">
-                            <div class="contro-container-description">
-                                <a href="https://lista-de-tarefas-tau-seven.vercel.app/" target="_blank">
-                                    <h3>Lista de tarefas interativas</h3>
-                                    <p>Desenvolvimento de uma Lista de Tarefas Interativa, inspirada na concepção de uma
-                                        lista
-                                        de afazeres equipada com uma gama variada de funcionalidades. Este projeto visa
-                                        criar
-                                        uma plataforma dinâmica e flexível, capaz de adaptar-se às necessidades
-                                        individuais
-                                        dos
-                                        usuários.
-                                    </p>
-                                </a>
-                            </div>
-                        </div>
+            </section>
+            <section class="section-soft-skills" id="soft-skills">
+                <div class="container">
+                    <div class="title-soft-skills">
+                        <h2>Habilidades</h2>
                     </div>
-                    <div class="slide-box">
-                        <img src="src/Imagens/img-projeto2.png" alt="Projetos realizados">
-                        <div class="slides-links">
-                            <ul>
-                                <li>
-                                    <a href="https://github.com/Edilson591/agenda-de-numeros"
-                                        aria-label="Click aqui e acesse o repositorio do projeto" role="menuitem"
-                                        target="_blank">
-                                        <span class="fa-brands fa-square-github"></span>
-                                    </a>
-                                </li>
-                                <li>
-                                    <a href="https://agenda-de-numeros.vercel.app/"
-                                        aria-label="Click aqui para acessa o projeto na pratica" target="_blank">
-                                        <span class="fa-solid fa-hand-pointer"></span>
-                                    </a>
-                                </li>
-                            </ul>
-                        </div>
-                        <div class="details">
-                            <p>Agenda de Números</p>
-                            <div class="usedLanguage">
-                                <img src="src/icons/html.svg" alt="Logo HTML">
-                                <img src="src/icons/css.svg" alt="Logo CSS">
-                                <img src="src/icons/js.svg" alt="Logo JS">
+                    <div class="sections-flex">
+                        <div class="soft-skills">
+                            <div class="subtitle-skills">
+                                <h3>Adiquiridas</h3>
+                            </div>
+                            <div class="soft-skill">
+                                <div class="skills-box-label">
+                                    <img src="src/icons/html.svg" alt="Logo HTML">
+                                    <label for="soft-skill">HTML</label>
+                                </div>
+                            </div>
+                            <div class="soft-skill">
+                                <div class="skills-box-label">
+                                    <img src="src/icons/js.svg" alt="Logo JS">
+                                    <label for="soft-skill">JavaScript</label>
+                                </div>
+                            </div>
+                            <div class="soft-skill">
+                                <div class="skills-box-label">
+                                    <img src="src/icons/css.svg" alt="Logo CSS">
+                                    <label for="soft-skill">CSS</label>
+                                </div>
+                            </div>
+                            <div class="soft-skill">
+                                <div class="skills-box-label">
+                                    <img src="src/icons/bootstrap.svg" alt="Logo Bootstrap">
+                                    <label for="soft-skill">Bootstrap</label>
+                                </div>
+                            </div>
+                            <div class="soft-skill">
+                                <div class="skills-box-label">
+                                    <img src="src/icons/jquery.svg" alt="Logo jQuery">
+                                    <label for="soft-skill">jQuery</label>
+                                </div>
+                            </div>
+                            <div class="soft-skill">
+                                <div class="skills-box-label">
+                                    <img src="src/icons/sass.svg" alt="Logo sass">
+                                    <label for="soft-skill">Sass</label>
+                                </div>
                             </div>
                         </div>
-                        <div class="description-Projects">
-                            <div class="contro-container-description">
-                                <a href="https://agenda-de-numeros.vercel.app/" target="_blank">
-                                    <h3>Agenda de Números</h3>
-                                    <p>Nesse projeto foi realizado uma agenda de números de contatos, pelo qual o
-                                        usuário pode adicionar números de contato.
-                                    </p>
-                                </a>
+                        <div class="soft-skills-progress">
+                            <div class="subtitle-skills">
+                                <h3>Em desenvolvimento</h3>
                             </div>
-                        </div>
-                    </div>
-                    <div class="slide-box">
-                        <img src="src/Imagens/img-projeto3.png" alt="Projetos realizados">
-                        <div class="slides-links">
-                            <ul>
-                                <li>
-                                    <a href="https://github.com/Edilson591/landing-page-bootstrap"
-                                        aria-label="Click aqui e acesse o repositorio do projeto" role="menuitem"
-                                        target="_blank">
-                                        <span class="fa-brands fa-square-github"></span>
-                                    </a>
-                                </li>
-                                <li>
-                                    <a href="https://landing-page-bootstrap-murex.vercel.app/"
-                                        aria-label="Click aqui para acessa o projeto na pratica" target="_blank">
-                                        <span class="fa-solid fa-hand-pointer"></span>
-                                    </a>
-                                </li>
-                            </ul>
-                        </div>
-                        <div class="details">
-                            <p>Landing Page Bootstrap</p>
-                            <div class="usedLanguage">
-                                <img src="src/icons/html.svg" alt="Logo HTML">
-                                <img src="src/icons/css.svg" alt="Logo CSS">
-                                <img src="src/icons/js.svg" alt="Logo JS">
+                            <div class="soft-skill">
+                                <div class="skills-box-label">
+                                    <img src="src/icons/typescript.svg" alt="Logo typescript">
+                                    <label for="soft-skill">TypeScript</label>
+                                </div>
                             </div>
-                        </div>
-                        <div class="description-Projects">
-                            <div class="contro-container-description">
-                                <a href="https://landing-page-bootstrap-murex.vercel.app/" target="_blank">
-                                    <h3>Landing Page Bootstrap</h3>
-                                    <p>Este projeto é um site estático de uma loja física existente com um cabeçalho
-                                        contendo um menu de navegação, um carrossel de imagens na seção inicial e links
-                                        âncora para diferentes partes do site. É desenvolvido com HTML, CSS, (Bootstrap
-                                        e estilos personalizados) e JQuery.
-                                    </p>
-                                </a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="slide-box">
-                        <img src="src/Imagens/img-projeto4.png" alt="Projetos agenda de numeros">
-                        <div class="slides-links">
-                            <ul>
-                                <li>
-                                    <a href="https://github.com/Edilson591/Site-loja-simples"
-                                        aria-label="Click aqui e acesse o repositorio do projeto" role="menuitem"
-                                        target="_blank">
-                                        <span class="fa-brands fa-square-github"></span>
-                                    </a>
-                                </li>
-                                <li>
-                                    <a href="https://site-loja-simples.vercel.app/"
-                                        aria-label="Click aqui para acessa o projeto na pratica" target="_blank">
-                                        <span class="fa-solid fa-hand-pointer"></span>
-                                    </a>
-                                </li>
-                            </ul>
-                        </div>
-                        <div class="details">
-                            <p>Loja do Jogador</p>
-                            <div class="usedLanguage">
-                                <img src="src/icons/html.svg" alt="Logo HTML">
-                                <img src="src/icons/css.svg" alt="Logo CSS">
-                                <img src="src/icons/js.svg" alt="Logo JS">
-                            </div>
-                        </div>
-                        <div class="description-Projects">
-                            <div class="contro-container-description">
-                                <a href="https://site-loja-simples.vercel.app/" target="_blank">
-                                    <h3>Loja do Jogador</h3>
-                                    <p>Esboço de um site com informações simples, porém responsivo.
-                                    </p>
-                                </a>
+                            <div class="soft-skill">
+                                <div class="skills-box-label">
+                                    <img src="src/icons/react.svg" alt="Logo React">
+                                    <label for="soft-skill">React</label>
+                                </div>
                             </div>
                         </div>
                     </div>
                 </div>
 
-        </section>
+            </section>
+            <section class="slider-projects" id="projects">
+                <div class="container">
+                    <div class="projects-title">
+                        <h2>Projetos</h2>
+                    </div>
+                    <div class="slides-content">
+                        <div class="slide-box">
+                            <img src="src/Imagens/img-projeto1_1.webp" alt="Projetos realizados">
+                            <div class="slides-links">
+                                <ul>
+                                    <li>
+                                        <a href="https://github.com/Edilson591/lista-de-tarefas-interativa"
+                                            aria-label="Click aqui e acesse o repositorio do projeto" target="_blank">
+                                            <span class="fa-brands fa-square-github"></span>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="https://lista-de-tarefas-tau-seven.vercel.app/"
+                                            aria-label="Click aqui para acessa o projeto na pratica" target="_blank">
+                                            <span class="fa-solid fa-hand-pointer"></span>
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="details">
+                                <p>Lista de tarefas interativas</p>
+                                <div class="usedLanguage">
+                                    <img src="src/icons/html.svg" alt="Logo HTML">
+                                    <img src="src/icons/css.svg" alt="Logo CSS">
+                                    <img src="src/icons/js.svg" alt="Logo JS">
+                                </div>
+                            </div>
+                            <div class="description-Projects">
+                                <div class="contro-container-description">
+                                    <a href="https://lista-de-tarefas-tau-seven.vercel.app/" target="_blank">
+                                        <h3>Lista de tarefas interativas</h3>
+                                        <p>Desenvolvimento de uma Lista de Tarefas Interativa, inspirada na concepção de
+                                            uma
+                                            lista
+                                            de afazeres equipada com uma gama variada de funcionalidades. Este projeto
+                                            visa
+                                            criar
+                                            uma plataforma dinâmica e flexível, capaz de adaptar-se às necessidades
+                                            individuais
+                                            dos
+                                            usuários.
+                                        </p>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="slide-box">
+                            <img src="src/Imagens/img-projeto2.png" alt="Projetos realizados">
+                            <div class="slides-links">
+                                <ul>
+                                    <li>
+                                        <a href="https://github.com/Edilson591/agenda-de-numeros"
+                                            aria-label="Click aqui e acesse o repositorio do projeto" role="menuitem"
+                                            target="_blank">
+                                            <span class="fa-brands fa-square-github"></span>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="https://agenda-de-numeros.vercel.app/"
+                                            aria-label="Click aqui para acessa o projeto na pratica" target="_blank">
+                                            <span class="fa-solid fa-hand-pointer"></span>
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="details">
+                                <p>Agenda de Números</p>
+                                <div class="usedLanguage">
+                                    <img src="src/icons/html.svg" alt="Logo HTML">
+                                    <img src="src/icons/css.svg" alt="Logo CSS">
+                                    <img src="src/icons/js.svg" alt="Logo JS">
+                                </div>
+                            </div>
+                            <div class="description-Projects">
+                                <div class="contro-container-description">
+                                    <a href="https://agenda-de-numeros.vercel.app/" target="_blank">
+                                        <h3>Agenda de Números</h3>
+                                        <p>Nesse projeto foi realizado uma agenda de números de contatos, pelo qual o
+                                            usuário pode adicionar números de contato.
+                                        </p>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="slide-box">
+                            <img src="src/Imagens/img-projeto3.png" alt="Projetos realizados">
+                            <div class="slides-links">
+                                <ul>
+                                    <li>
+                                        <a href="https://github.com/Edilson591/landing-page-bootstrap"
+                                            aria-label="Click aqui e acesse o repositorio do projeto" role="menuitem"
+                                            target="_blank">
+                                            <span class="fa-brands fa-square-github"></span>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="https://landing-page-bootstrap-murex.vercel.app/"
+                                            aria-label="Click aqui para acessa o projeto na pratica" target="_blank">
+                                            <span class="fa-solid fa-hand-pointer"></span>
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="details">
+                                <p>Landing Page Bootstrap</p>
+                                <div class="usedLanguage">
+                                    <img src="src/icons/html.svg" alt="Logo HTML">
+                                    <img src="src/icons/css.svg" alt="Logo CSS">
+                                    <img src="src/icons/js.svg" alt="Logo JS">
+                                </div>
+                            </div>
+                            <div class="description-Projects">
+                                <div class="contro-container-description">
+                                    <a href="https://landing-page-bootstrap-murex.vercel.app/" target="_blank">
+                                        <h3>Landing Page Bootstrap</h3>
+                                        <p>Este projeto é um site estático de uma loja física existente com um cabeçalho
+                                            contendo um menu de navegação, um carrossel de imagens na seção inicial e
+                                            links
+                                            âncora para diferentes partes do site. É desenvolvido com HTML, CSS,
+                                            (Bootstrap
+                                            e estilos personalizados) e JQuery.
+                                        </p>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="slide-box">
+                            <img src="src/Imagens/img-projeto4.png" alt="Projetos agenda de numeros">
+                            <div class="slides-links">
+                                <ul>
+                                    <li>
+                                        <a href="https://github.com/Edilson591/Site-loja-simples"
+                                            aria-label="Click aqui e acesse o repositorio do projeto" role="menuitem"
+                                            target="_blank">
+                                            <span class="fa-brands fa-square-github"></span>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="https://site-loja-simples.vercel.app/"
+                                            aria-label="Click aqui para acessa o projeto na pratica" target="_blank">
+                                            <span class="fa-solid fa-hand-pointer"></span>
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="details">
+                                <p>Loja do Jogador</p>
+                                <div class="usedLanguage">
+                                    <img src="src/icons/html.svg" alt="Logo HTML">
+                                    <img src="src/icons/css.svg" alt="Logo CSS">
+                                    <img src="src/icons/js.svg" alt="Logo JS">
+                                </div>
+                            </div>
+                            <div class="description-Projects">
+                                <div class="contro-container-description">
+                                    <a href="https://site-loja-simples.vercel.app/" target="_blank">
+                                        <h3>Loja do Jogador</h3>
+                                        <p>Esboço de um site com informações simples, porém responsivo.
+                                        </p>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+            </section>
+        </div>
     </main>
     <footer>
         <div class="container sections-flex">
@@ -345,6 +360,7 @@
     </footer>
     <script src="https://code.jquery.com/jquery-3.7.1.min.js"
         integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
     <script src="src/scripts/nameStyle.js"></script>
     <script src="src/scripts/menu.js"></script>
     <script src="src/scripts/slides.js"></script>

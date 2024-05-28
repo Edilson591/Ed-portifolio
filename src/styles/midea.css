@@ -7,7 +7,11 @@
         align-items: center;
         text-align: center;
         gap: 1rem;
+        flex-direction: column-reverse;
     } 
+    .section-home .text-content-top .actions {
+        gap: .5rem;
+    }
     
     .slide-box {
         width: 100%;
@@ -31,9 +35,7 @@
     .section-home p {
         font-size: 1.5rem;
     }
-    .section-home .img-content-top {
-        max-width: 300px;
-    }
+
     .slide-box .description-Projects .contro-container-description { 
         bottom: auto;
         opacity: 1;
@@ -50,6 +52,13 @@
     }
     footer .container .sections-flex {
         flex-direction: row;
+    }
+    
+    .section-about .container .sections-flex .title-about {
+        padding: 0;
+    }
+    .section-about .container .sections-flex .about-description { 
+        max-width: 300px;
     }
   
 
@@ -127,6 +136,7 @@
 
     .sections-flex {
         flex-direction:  column-reverse;
+        gap: 2rem;
     }
     .slides-content {
         grid-template-columns: repeat(1, 100%);
@@ -157,9 +167,6 @@
         backdrop-filter:none;
     }
     
-    .section-home .text-content-top .actions {
-        gap: 1rem;
-    }
     .slide-box .slides-links ul li a{ 
         font-size: 1.2rem;
     } 
@@ -170,9 +177,10 @@
         flex-direction: row;
     }
   
-    .section-soft-skills .container .sections-flex {
+    .section-soft-skills .container .sections-flex,
+    .section-about .container .sections-flex{
         flex-direction: column;
+        align-items: center;
     }
- 
-   
+    
 }
