@@ -47,7 +47,7 @@ section.slider-projects .container {
     position: relative;
     display: flex;
     transition: 1s;
-    flex-direction: column;
+    flex-direction: column-reverse;
 }
 .slide-box:hover {
     transform: scale(1.1);
