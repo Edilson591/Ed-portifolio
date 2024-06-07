@@ -57,17 +57,17 @@
                             <h2>Transformando ideias em realidade digital</h2>
                             <p>Engenheiro Front End apaixonado por criar experiências web excepcionais</p>
                             <div class="actions">
-                                <a href="assets/cv/Edilson-cv.pdf" download target="_blank"
+                                <a href="assets/cv/Edilson-cv.pdf" class="btn " download target="_blank"
                                     rel="noopener noreferrer">Curriculo</a>
-                                <a href="mailto:edilson591@gmail.com" target="_blank">Entre em
+                                <a href="mailto:edilson591@gmail.com" class="btn " target="_blank">Entre em
                                     contato</a>
-                                <a href="https://www.linkedin.com/in/edilsonluciano" target="_blank"
+                                <a href="https://www.linkedin.com/in/edilsonluciano" class="btn " target="_blank"
                                     rel="noopener noreferrer">Linkedin</a>
                             </div>
                         </div>
                         <div class="img-content-top">
-                                <img src="src/Imagens/profile-photo.webp" class="fotoUser"
-                                    alt="Foto de perfil do portifolio">
+                            <img src="src/Imagens/profile-photo.webp" class="fotoUser"
+                                alt="Foto de perfil do portifolio">
                         </div>
                     </div>
 
@@ -88,11 +88,13 @@
                                     Técnico em radiologia migrando para desenvolvimento front-end, aplicando habilidades
                                     analíticas para criar interfaces web intuitivas e atraentes. Comprometido com
                                     aprendizado
-                                    contínuo e contribuição para equipes de desenvolvimento, buscando experiências digitais
+                                    contínuo e contribuição para equipes de desenvolvimento, buscando experiências
+                                    digitais
                                     de
                                     alta qualidade. Domínio de HTML, CSS e JavaScript, com experiência na construção de
                                     experiências digitais envolventes. Explorando React, TypeScript, Vue.js, Bootstrap e
-                                    Angular. Animado para colaborar em equipes de desenvolvimento front-end e impulsionar a
+                                    Angular. Animado para colaborar em equipes de desenvolvimento front-end e
+                                    impulsionar a
                                     inovação no desenvolvimento web.
                                 </p>
                             </div>
@@ -197,7 +199,8 @@
                                 <div class="usedLanguage">
                                     <img src="src/icons/html.svg" alt="Logo HTML">
                                     <img src="src/icons/css.svg" alt="Logo CSS">
-                                    <img src="src/icons/js.svg" alt="Logo JS">
+                                    <img src="src/icons/js.svg" alt="Logo JavaScript">
+                                    <img src="src/icons/jquery.svg" alt="Logo jQuery">
                                 </div>
                             </div>
                             <div class="description-Projects">
@@ -243,7 +246,8 @@
                                 <div class="usedLanguage">
                                     <img src="src/icons/html.svg" alt="Logo HTML">
                                     <img src="src/icons/css.svg" alt="Logo CSS">
-                                    <img src="src/icons/js.svg" alt="Logo JS">
+                                    <img src="src/icons/js.svg" alt="Logo JavaScript">
+                                    <img src="src/icons/jquery.svg" alt="Logo jQuery">
                                 </div>
                             </div>
                             <div class="description-Projects">
@@ -282,6 +286,8 @@
                                     <img src="src/icons/html.svg" alt="Logo HTML">
                                     <img src="src/icons/css.svg" alt="Logo CSS">
                                     <img src="src/icons/js.svg" alt="Logo JS">
+                                    <img src="src/icons/bootstrap.svg" alt="Logo Bootstrap">
+                                    <img src="src/icons/jquery.svg" alt="Logo jQuery">
                                 </div>
                             </div>
                             <div class="description-Projects">
@@ -324,21 +330,61 @@
                                     <img src="src/icons/html.svg" alt="Logo HTML">
                                     <img src="src/icons/css.svg" alt="Logo CSS">
                                     <img src="src/icons/js.svg" alt="Logo JS">
+                                    <img src="src/icons/bootstrap.svg" alt="Logo Bootstrap">
                                 </div>
                             </div>
                             <div class="description-Projects">
                                 <div class="contro-container-description">
-                                    <a href="https://site-loja-simples.vercel.app/" target="_blank">
-                                        <h3>Loja do Jogador</h3>
-                                        <p>Esboço de um site com informações simples, porém responsivo.
-                                        </p>
-                                    </a>
+                                    <button class="btn btn-custom fw-bold" data-bs-toggle="modal"
+                                        data-bs-target="#modalLojaDoJogador">
+                                        Saiba mais...
+                                    </button>
                                 </div>
                             </div>
                         </div>
-                    </div>
-
             </section>
+            <div class="modal fade" id="modalLojaDoJogador" data-bs-backdrop="static">
+                <div class="modal-dialog custom-widht">
+                    <div class="modal-content bg-dark text-white">
+                        <div class="modal-header border-0">
+                            <h5>Loja do jogador</h5>
+                            <button data-bs-dismiss="modal" type="button" class="btn-close"></button>
+                        </div>
+                        <div class="modal-body ">
+                            <div class="d-flex flex-column align-items-center gap-3 flex-md-column">
+                                <img src="src/Imagens/img-projeto4.png" class="w-100 d-block"
+                                    alt="Projetos agenda de numeros">
+                                <p> Descanse em uma cama confortável, aproveite a área de estar
+                                    compacta e usufrua de um banheiro privativo bem equipado.
+                                    Além disso, desfrute de comodidades essenciais como TV,
+                                    Wi-Fi gratuito, guarda-roupa e mesa de trabalho. Tudo isso
+                                    em um design clean e acolhedor que fará você se sentir em
+                                    casa. Reserve agora e experimente o equilíbrio perfeito
+                                    entre simplicidade e conforto!</p>
+                            </div>
+                        </div>
+                        <div class="modal-footer border-0">
+                            <ul class="d-flex gap-2">
+                                <li>
+                                    <a href="https://github.com/Edilson591/lista-de-tarefas-interativa"
+                                        class="btn-custom p-2" aria-label="Click aqui e acesse o repositorio do projeto"
+                                        target="_blank">
+                                        <span class="fa-brands fa-square-github me-2"></span>
+                                        Arquivo github
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="https://lista-de-tarefas-tau-seven.vercel.app/" class="btn-custom p-2"
+                                        aria-label="Click aqui para acessa o projeto na pratica" target="_blank">
+                                        <span class="fa-solid fa-hand-pointer me-2"></span>
+                                        Visitar Teste
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
     </main>
     <footer>

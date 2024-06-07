@@ -24,7 +24,7 @@ $(function() {
      //função para animação ao secrola a pagina
      const sections = $("section");
 
-     const sizeWindows = $(window).height() * 0.6;
+     const sizeWindows = $(window).height() * 0.5;
  
      function animateScroll(){
          sections.each((index, item) => {

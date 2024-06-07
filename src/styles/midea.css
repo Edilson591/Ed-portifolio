@@ -1,4 +1,12 @@
 @media screen and (min-width: 741px) and (max-width: 1024px) {
+
+    #menu {
+        font-size: var(--font-size-third);
+    }
+    .name,
+    .first-word{
+       font-size: var(--font-size-third);
+    }
     .slides-content {
         grid-template-columns: repeat(2, 48%);
     }   
@@ -29,6 +37,24 @@
     .slide-box .nav-auto{
         display: none;
     }
+    .slide-box .details p{
+        font-size: .8rem;
+    }
+
+    .btn-custom {
+        font-size: .7rem;
+    }
+
+    .slide-box .description-Projects .contro-container-description {
+        padding: 5px;
+    }
+    
+    .slide-box .details {
+        gap: 0;
+    }
+    .slide-box .details .usedLanguage img {
+        width: 15px;
+    }
     .section-home h1 {
         font-size: 2rem;
     }
@@ -36,13 +62,6 @@
         font-size: 1.5rem;
     }
 
-    .slide-box .description-Projects .contro-container-description { 
-        bottom: auto;
-        opacity: 1;
-        width: 100%;
-        border-top: 2px solid #ca4c03;
-    
-    }
     .slide-box .slides-links ul li a{ 
         font-size: 1.2rem;
     } 
@@ -141,12 +160,25 @@
     .slides-content {
         grid-template-columns: repeat(1, 100%);
     }  
-    .slide-box .description-Projects .contro-container-description {
-        bottom: auto;
-        opacity: 1;
-        width: 100%;
-        border-top: 2px solid #ca4c03;
+    .btn-custom {
+        font-size: .7rem;
     }
+
+    .slide-box .description-Projects .contro-container-description {
+        padding: 5px;
+    }
+
+    .slide-box .details p{
+        font-size: .8rem;
+    }
+    
+    .slide-box .details {
+        gap: 0;
+    }
+    .slide-box .details .usedLanguage img {
+        width: 15px;
+    }
+    
 
     .name,
     .first-word {
@@ -181,6 +213,10 @@
     .section-about .container .sections-flex{
         flex-direction: column;
         align-items: center;
+    }
+
+    .section-home .text-content-top .actions {
+       flex-direction: column;
     }
     
 }
