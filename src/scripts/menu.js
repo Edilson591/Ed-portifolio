@@ -21,7 +21,7 @@ $(function() {
         nav.removeClass("active");
         button.attr("aria-expanded", "false").attr("aria-label", "Abrir Menu");
     });
-     //função para animação ao secrola a pagina
+
      const sections = $("section");
 
      const sizeWindows = $(window).height() * 0.5;

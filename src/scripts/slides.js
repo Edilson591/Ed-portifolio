@@ -5,22 +5,23 @@
 // let cont = 1
 // let navAuto;
 
-const slideBox = document.querySelectorAll(".slide-box")
-const decritionProjects = document.querySelectorAll(".slide-box .description-Projects")
-
-console.log(slideBox)
+const $slideBox = document.querySelectorAll(".slide-box")
+const $descriptionProjects = document.querySelectorAll(".slide-box .description-Projects")
 
 function handleBox() {
-    for (let i = 0; i < slideBox.length; i++) {
-        slideBox[i].addEventListener("mouseover",() => {
-            decritionProjects[i].style.display = "block"
-            
-        })   
-        slideBox[i].addEventListener("mouseout",() => {
-            decritionProjects[i].style.display = "none"
-        })   
-    }
+    $(".slide-box").each(function(index) {
+        $(this).on("mouseover", function() {
+            $(".slide-box .description-Projects").eq(index).css("display", "block");
+        });
+        $(this).on("mouseout", function() {
+            $(".slide-box .description-Projects").eq(index).css("display", "none");
+        });
+    });
 }
+
+
+
+
 
 handleBox()
 

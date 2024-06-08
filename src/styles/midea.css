@@ -91,6 +91,7 @@
         justify-content: flex-start;
         align-items: center;
         position: fixed;
+        padding: 0;
         right: -70vw;
         height: 100vh;
         top: 2.7rem;
