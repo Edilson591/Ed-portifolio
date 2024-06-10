@@ -205,20 +205,10 @@
                             </div>
                             <div class="description-Projects">
                                 <div class="contro-container-description">
-                                    <a href="https://lista-de-tarefas-tau-seven.vercel.app/" target="_blank">
-                                        <h3>Lista de tarefas interativas</h3>
-                                        <p>Desenvolvimento de uma Lista de Tarefas Interativa, inspirada na concepção de
-                                            uma
-                                            lista
-                                            de afazeres equipada com uma gama variada de funcionalidades. Este projeto
-                                            visa
-                                            criar
-                                            uma plataforma dinâmica e flexível, capaz de adaptar-se às necessidades
-                                            individuais
-                                            dos
-                                            usuários.
-                                        </p>
-                                    </a>
+                                    <button class="btn btn-custom fw-bold" data-bs-toggle="modal"
+                                        data-bs-target="#modalListaDeTarefasInterativas">
+                                        Saiba mais...
+                                    </button>
                                 </div>
                             </div>
                         </div>
@@ -252,12 +242,10 @@
                             </div>
                             <div class="description-Projects">
                                 <div class="contro-container-description">
-                                    <a href="https://agenda-de-numeros.vercel.app/" target="_blank">
-                                        <h3>Agenda de Números</h3>
-                                        <p>Nesse projeto foi realizado uma agenda de números de contatos, pelo qual o
-                                            usuário pode adicionar números de contato.
-                                        </p>
-                                    </a>
+                                    <button class="btn btn-custom fw-bold" data-bs-toggle="modal"
+                                        data-bs-target="#modalAgendaDeNumeros">
+                                        Saiba mais...
+                                    </button>
                                 </div>
                             </div>
                         </div>
@@ -292,16 +280,10 @@
                             </div>
                             <div class="description-Projects">
                                 <div class="contro-container-description">
-                                    <a href="https://landing-page-bootstrap-murex.vercel.app/" target="_blank">
-                                        <h3>Landing Page Bootstrap</h3>
-                                        <p>Este projeto é um site estático de uma loja física existente com um cabeçalho
-                                            contendo um menu de navegação, um carrossel de imagens na seção inicial e
-                                            links
-                                            âncora para diferentes partes do site. É desenvolvido com HTML, CSS,
-                                            (Bootstrap
-                                            e estilos personalizados) e JQuery.
-                                        </p>
-                                    </a>
+                                    <button class="btn btn-custom fw-bold" data-bs-toggle="modal"
+                                        data-bs-target="#modalLangingPageBootstrap">
+                                        Saiba mais...
+                                    </button>
                                 </div>
                             </div>
                         </div>
@@ -343,47 +325,164 @@
                             </div>
                         </div>
             </section>
-            <div class="modal fade" id="modalLojaDoJogador" data-bs-backdrop="static">
-                <div class="modal-dialog custom-widht">
-                    <div class="modal-content bg-dark text-white">
-                        <div class="modal-header border-0">
-                            <h5>Loja do jogador</h5>
-                            <button data-bs-dismiss="modal" type="button" class="btn-close"></button>
-                        </div>
-                        <div class="modal-body ">
-                            <div class="d-flex flex-column align-items-center gap-3 flex-md-column">
-                                <img src="src/Imagens/img-projeto4.png" class="w-100 d-block"
-                                    alt="Projetos agenda de numeros">
-                                <p> Descanse em uma cama confortável, aproveite a área de estar
-                                    compacta e usufrua de um banheiro privativo bem equipado.
-                                    Além disso, desfrute de comodidades essenciais como TV,
-                                    Wi-Fi gratuito, guarda-roupa e mesa de trabalho. Tudo isso
-                                    em um design clean e acolhedor que fará você se sentir em
-                                    casa. Reserve agora e experimente o equilíbrio perfeito
-                                    entre simplicidade e conforto!</p>
+            <div class="modals">
+                <div class="modal fade" id="modalListaDeTarefasInterativas" data-bs-backdrop="static">
+                    <div class="modal-dialog custom-widht">
+                        <div class="modal-content bg-dark text-white">
+                            <div class="modal-header border-0">
+                                <h5>Lista de tarefas interativas</h5>
+                                <button data-bs-dismiss="modal" type="button" class="btn-close"></button>
                             </div>
-                        </div>
-                        <div class="modal-footer border-0">
-                            <ul class="d-flex gap-2">
-                                <li>
-                                    <a href="https://github.com/Edilson591/lista-de-tarefas-interativa"
-                                        class="btn-custom p-2" aria-label="Click aqui e acesse o repositorio do projeto"
-                                        target="_blank">
-                                        <span class="fa-brands fa-square-github me-2"></span>
-                                        Arquivo github
-                                    </a>
-                                </li>
-                                <li>
-                                    <a href="https://lista-de-tarefas-tau-seven.vercel.app/" class="btn-custom p-2"
-                                        aria-label="Click aqui para acessa o projeto na pratica" target="_blank">
-                                        <span class="fa-solid fa-hand-pointer me-2"></span>
-                                        Visitar Teste
-                                    </a>
-                                </li>
-                            </ul>
+                            <div class="modal-body ">
+                                <div class="d-flex flex-column align-items-center gap-3 flex-md-column">
+                                    <img src="src/Imagens/img-projeto1_1.webp" class="w-100 d-block"
+                                        alt="Projetos agenda de numeros">
+                                    <p> Criação de uma lista de tarefas Interativa, com base na ideia de um lista de
+                                        tarefas com diversas funcionalidades como Adicionar novas tarefas à lista.
+                                        Associar um nome de usuário a cada tarefa. Editar o nome de usuário e o texto da
+                                        tarefa diretamente na lista. Remover tarefas da lista.</p>
+                                </div>
+                            </div>
+                            <div class="modal-footer border-0">
+                                <ul class="d-flex gap-2">
+                                    <li>
+                                        <a href="https://github.com/Edilson591/lista-de-tarefas-interativa"
+                                            class="btn-custom p-2"
+                                            aria-label="Click aqui e acesse o repositorio do projeto lista de tarefas interativas" target="_blank">
+                                            <span class="fa-brands fa-square-github me-2"></span>
+                                            Arquivo github
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="https://lista-de-tarefas-tau-seven.vercel.app/" class="btn-custom p-2"
+                                            aria-label="Click aqui para acessa o projeto na pratica lista de tarefas interativas" target="_blank">
+                                            <span class="fa-solid fa-hand-pointer me-2"></span>
+                                            Visitar Teste
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>
                         </div>
                     </div>
                 </div>
+                <div class="modal fade" id="modalAgendaDeNumeros" data-bs-backdrop="static">
+                    <div class="modal-dialog custom-widht">
+                        <div class="modal-content bg-dark text-white">
+                            <div class="modal-header border-0">
+                                <h5>Agenda de Números</h5>
+                                <button data-bs-dismiss="modal" type="button" class="btn-close"></button>
+                            </div>
+                            <div class="modal-body ">
+                                <div class="d-flex flex-column align-items-center gap-3 flex-md-column">
+                                    <img src="src/Imagens/img-projeto2.png" class="w-100 d-block"
+                                        alt="Projetos agenda de numeros">
+                                    <p> Agenda de Números é um aplicativo simples para armazenar e organizar contatos de
+                                        forma eficiente. Ele oferece uma interface amigável e recursos básicos para
+                                        gerenciar informações de contatos, incluindo adição e remoção. Projeto realizado
+                                        como forma de aprendizagem, desafio proposto no curso de Engenheiro front end da
+                                        EBAC.</p>
+                                </div>
+                            </div>
+                            <div class="modal-footer border-0">
+                                <ul class="d-flex gap-2">
+                                    <li>
+                                        <a href="https://github.com/Edilson591/agenda-de-numeros" class="btn-custom p-2"
+                                            aria-label="Click aqui e acesse o repositorio do projeto agenda de números" target="_blank">
+                                            <span class="fa-brands fa-square-github me-2"></span>
+                                            Arquivo github
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="https://agenda-de-numeros.vercel.app/" class="btn-custom p-2"
+                                            aria-label="Click aqui para acessa o projeto na pratica agenda de números" target="_blank">
+                                            <span class="fa-solid fa-hand-pointer me-2"></span>
+                                            Visitar Teste
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="modal fade" id="modalLangingPageBootstrap" data-bs-backdrop="static">
+                    <div class="modal-dialog custom-widht">
+                        <div class="modal-content bg-dark text-white">
+                            <div class="modal-header border-0">
+                                <h5>Langing page bootstrap</h5>
+                                <button data-bs-dismiss="modal" type="button" class="btn-close"></button>
+                            </div>
+                            <div class="modal-body ">
+                                <div class="d-flex flex-column align-items-center gap-3 flex-md-column">
+                                    <img src="src/Imagens/img-projeto3.png" class="w-100 d-block"
+                                        alt="Projetos agenda de numeros">
+                                    <p> Este projeto é um site estático de uma loja física existente com um cabeçalho
+                                        contendo um menu de navegação, um carrossel de imagens na seção inicial e links
+                                        âncora para diferentes partes do site. É desenvolvido com HTML, CSS, (Bootstrap
+                                        e estilos personalizados) e JQuery.</p>
+                                </div>
+                            </div>
+                            <div class="modal-footer border-0">
+                                <ul class="d-flex gap-2">
+                                    <li>
+                                        <a href="https://github.com/Edilson591/landing-page-bootstrap" class="btn-custom p-2"
+                                            aria-label="Click aqui e acesse o repositorio do projeto langing page bootstrap" target="_blank">
+                                            <span class="fa-brands fa-square-github me-2"></span>
+                                            Arquivo github
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="https://landing-page-bootstrap-murex.vercel.app/" class="btn-custom p-2"
+                                            aria-label="Click aqui para acessa o projeto na pratica langing page bootstrap" target="_blank">
+                                            <span class="fa-solid fa-hand-pointer me-2"></span>
+                                            Visitar Teste
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="modal fade" id="modalLojaDoJogador" data-bs-backdrop="static">
+                    <div class="modal-dialog custom-widht">
+                        <div class="modal-content bg-dark text-white">
+                            <div class="modal-header border-0">
+                                <h5>Loja do jogador</h5>
+                                <button data-bs-dismiss="modal" type="button" class="btn-close"></button>
+                            </div>
+                            <div class="modal-body ">
+                                <div class="d-flex flex-column align-items-center gap-3 flex-md-column">
+                                    <img src="src/Imagens/img-projeto4.png" class="w-100 d-block"
+                                        alt="Projetos agenda de numeros">
+                                    <p> Este é um site simples criado com HTML, CSS e possivelmente JavaScript. Ele foi
+                                        desenvolvido como um exemplo básico para fins de aprendizado ou demonstração de
+                                        conhecimento, como parte de um desafio do curso da ebac.</p>
+                                </div>
+                            </div>
+                            <div class="modal-footer border-0">
+                                <ul class="d-flex gap-2">
+                                    <li>
+                                        <a href="https://github.com/Edilson591/lista-de-tarefas-interativa"
+                                            class="btn-custom p-2"
+                                            aria-label="Click aqui e acesse o repositorio do projeto da  loja do jogador" target="_blank">
+                                            <span class="fa-brands fa-square-github me-2"></span>
+                                            Arquivo github
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="https://lista-de-tarefas-tau-seven.vercel.app/" class="btn-custom p-2"
+                                            aria-label="Click aqui para acessa o projeto na pratica da loja do jogador" target="_blank">
+                                            <span class="fa-solid fa-hand-pointer me-2"></span>
+                                            Visitar Teste
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
             </div>
         </div>
     </main>
