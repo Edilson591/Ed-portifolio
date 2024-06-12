@@ -61,10 +61,6 @@
     .section-home p {
         font-size: 1.5rem;
     }
-
-    .slide-box .slides-links ul li a{ 
-        font-size: 1.2rem;
-    } 
     
     footer .sections-flex {
         flex-direction: column;
@@ -104,7 +100,8 @@
     }
 
     #nav.active #menu {
-        right: 0;
+        right: -70px;
+        width: 70vw;
     }
     #btn-mobile {
         display: flex;
@@ -199,10 +196,7 @@
     .container-bg {
         backdrop-filter:none;
     }
-    
-    .slide-box .slides-links ul li a{ 
-        font-size: 1.2rem;
-    } 
+
     footer .sections-flex {
         flex-direction: column;
     }

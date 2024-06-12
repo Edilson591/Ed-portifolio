@@ -91,15 +91,6 @@ section.slider-projects .container {
     font-size: 0.8rem;
 }
 
-.slide-box .slides-links {
-    position: absolute;
-    top: 15px;
-    right: 15px;
-}
-.slide-box .slides-links ul{ 
-    display: flex;
-    gap: 1rem;
-}
 .slide-box::before {
     content: "";
     position: absolute;
@@ -113,12 +104,6 @@ section.slider-projects .container {
 .slide-box:hover:before {
     opacity: 0;
 }
-.slide-box:hover .slides-links ul li a span {
-    color: #000;
-}
-/* .description-Projects:hover{
-    display: block;
-} */
 
 .slide-box .details{
     position: absolute;
@@ -144,11 +129,7 @@ section.slider-projects .container {
     opacity: 0;
 }
 
-.slide-box .slides-links ul li a{
-    font-size: 2rem;
-    color:#ffffff99;
-    ;
-}
+
 
 
 
