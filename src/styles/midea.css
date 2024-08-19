@@ -1,4 +1,4 @@
-@media screen and (min-width: 741px) and (max-width: 1024px) {
+@media screen and (min-width: 769px) and (max-width: 1200px) {
 
     #menu {
         font-size: var(--font-size-third);
@@ -28,6 +28,7 @@
     }
     #nav li a {
         font-size: var(--font-size-third);
+        padding: 0 8px;
     }
 
 
@@ -82,7 +83,7 @@
 
 }
 
-@media only screen and (max-width: 740px) {
+@media only screen and (max-width: 768px) {
     #menu {
         display: flex;
         flex-direction: column;
