@@ -2,6 +2,8 @@
 
     #menu {
         font-size: var(--font-size-third);
+        gap: 0;
+        padding-left: 0;
     }
     .name,
     .first-word{
